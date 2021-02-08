@@ -1,0 +1,69 @@
+/* .App {
+  text-align: center;
+} */
+.main{
+  
+  width: 400px;
+  height: 400px;
+  margin: 30px auto;
+}
+.input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  font-size: 20px;
+  border: 2px solid blue;
+  transition: width 0.4s ease-in-out;
+}
+.input:focus {
+  /* width: 100%; */
+  outline-color: blue;
+  background-color: blue; /* Green */
+  color: white;
+}
+.addBtn{
+height: 50px;
+padding: 12px 20px;
+margin: 8px 6px;
+box-sizing: border-box;
+font-size: 20px;
+border: 2px solid blue;
+outline-color: blue;
+transition-duration: 0.4s;
+}
+.addBtn:hover{
+  background-color: blue; /* Green */
+  color: white;
+}
+/* .list{
+  background-color: cornsilk;
+  width: 80%;
+  height: 30px;
+  padding: 30px 10px;
+} */
+.list-items{
+margin: 5px 20px;
+font-weight: 30px;
+}
+.btn{
+  width: 70px;
+  outline-color: blue;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border: 2px solid blue;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: blue; /* Green */
+  color: white;
+}
+.edit-input{
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border: 2px solid blue;
+}
+.edit-input:focus{
+  outline-style: none;
+}
